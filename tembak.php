@@ -5,7 +5,7 @@ if (!file_exists('token')) {
     mkdir('token', 0777, true);
 }
 
-include ("curl.php");
+include ("function.php");
 echo "\n";
 echo "\e[94m          Voucher Claim Gojek           \n";
 echo "\e[91m FORMAT NOMOR HP : INDONESIA '62***' , US='1***'\n";
